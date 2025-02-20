@@ -95,17 +95,25 @@
   </tbody>
 </table>
 <div class="btn-toolbar" aria-label="Button navbar">
-  <div class="btn-group" aria-label="Success buttons">
-    <button class="btn btn-success">O</button>
-    <button class="btn btn-success">A</button>
-    <button class="btn btn-success">N</button>
+  <div class="btn-group" role="group" aria-label="Success buttons">
+    <button type="button" class="btn btn-success">O</button>
+    <button type="button" class="btn btn-success">A</button>
+    <button type="button" class="btn btn-success">N</button>
   </div>
-  <div class="btn-group" aria-label="Warning buttons">
-    <button class="btn btn-warning">R</button>
-    <button class="btn btn-warning">M</button>
+  <div class="btn-group" role="group" aria-label="Warning buttons">
+    <button type="button" class="btn btn-warning">R</button>
+    <button type="button" class="btn btn-warning">M</button>
   </div>
-  <div class="btn-group" aria-label="Danger button">
-    <button class="btn btn-danger">F</button>
+  <div class="btn-group" role="group" aria-label="Danger button">
+    <button type="button" class="btn btn-danger">F</button>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+
+  <div class="dropdown-menu">
+    <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
   </div>
 </div>
 </body>
